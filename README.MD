@@ -5,7 +5,7 @@ Add in your package:
 ```
 dependencies: [
         ...
-        .package(url: "https://github.com/anytypeio/SourceryGenPlugin.git", revision: "1.9.2")
+        .package(url: "https://github.com/anyproto/SourceryGenPlugin.git", revision: "1.9.2")
 ],
 targets: [
     .target(
