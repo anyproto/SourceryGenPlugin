@@ -51,6 +51,9 @@ private extension Command {
         "--cacheBasePath",
         context.pluginWorkDirectory.string
       ],
+      environment: [
+          "DERIVED_SOURCES_DIR": context.pluginWorkDirectory,
+      ],
       outputFilesDirectory: context.pluginWorkDirectory
     )
   }
